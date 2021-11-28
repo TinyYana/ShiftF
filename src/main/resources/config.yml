@@ -1,5 +1,5 @@
-Command: "cc open main.yml"
+Command: "help"
 ExecuteByConsole: true
 Messages:
-  ReloadSuccess: "&a[ShiftF] &b已成功重讀 config.yml"
-  permissionMessage: "&c你沒有權限使用此指令 ( •̀ ω •́ )✧"
+  ReloadSuccess: "&a[ShiftF] &bReload config.yml successfully"
+  permissionMessage: "&cYou don't have permission to execute this command."
