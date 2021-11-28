@@ -1,0 +1,5 @@
+Command: "cc open main.yml"
+ExecuteByConsole: true
+Messages:
+  ReloadSuccess: "&a[ShiftF] &b已成功重讀 config.yml"
+  permissionMessage: "&c你沒有權限使用此指令 ( •̀ ω •́ )✧"

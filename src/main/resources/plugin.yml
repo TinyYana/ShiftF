@@ -1,0 +1,17 @@
+name: ShiftF
+version: '${project.version}'
+main: io.github.tinyyana.shiftf.ShiftFPlugin
+api-version: 1.17
+prefix: ShiftF
+authors: [ TinyYana ]
+description: Shift f plugin for yana server.
+website: https://github.com/TinyYana
+permissions:
+  ShiftF.Admin:
+    description: Admin permission node.
+    default: op
+commands:
+  shiftReload:
+    description: A command to reload this plugin's config.
+    permission: ShiftF.Admin
+    usage: /<command>
