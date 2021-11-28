@@ -25,7 +25,7 @@ public class SneakSwapListener implements Listener {
 
         if (config.getBoolean("ExecuteByConsole")) {
             event.setCancelled(true);
-            Bukkit.dispatchCommand(console, config.getString("Command") + " " + player.getName());
+            Bukkit.dispatchCommand(console, Objects.requireNonNull(config.getString("Command")));
         } else {
             event.setCancelled(true);
             Bukkit.dispatchCommand(player, Objects.requireNonNull(config.getString("Command")));
